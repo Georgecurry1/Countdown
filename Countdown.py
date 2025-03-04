@@ -1,13 +1,13 @@
 #functions
 
 def countDown():
-    countDownStart = int(input("enter the number you want to cound down from?"))
-    for i in range(0,countDownStart,-1):
+    countDownStart = input("enter the number you want to count down from?")
+    for i in range(int(countDownStart),0 -1):
         print(i)
 
 def countUp():
-    countDownStart = int(input("enter the number you want to cound down from?"))
-    for i in range(0,countDownStart):
+    countUpStart = input("enter the number you want to count up from?")
+    for i in range(0,int(countUpStart), 1):
         print(i)
 
 
